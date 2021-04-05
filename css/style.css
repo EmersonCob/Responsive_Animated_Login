@@ -83,6 +83,7 @@ form h2
     width: 0;
     height: 2px;
     background-color: #38d39f;
+    transition: .3s;
 }
 
 .input-div:after{
@@ -128,6 +129,7 @@ form h2
 .i i 
 {
     color: #d9d9d9;
+    transition: .3s;
 }
 
 .input-div > div 
@@ -200,4 +202,42 @@ a:hover
 .btn:hover 
 {
     background-position: right;
+}
+
+@media screen and (max=width: 1050px){
+    .container{
+        grid-gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    form{
+        width: 290px;
+    }
+
+    form h2{
+        font-size: 2.4rem;
+        margin: 8px 0;
+    }
+    .img img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .img{
+        display: none;
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+    .wave{
+        display: none;
+    }
+
+    .login-container{
+        justify-content: center;
+    }
 }
