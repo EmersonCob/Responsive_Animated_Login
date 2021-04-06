@@ -79,7 +79,7 @@ form h2
 }
 
 .input-div:after, input-div:before{
-    content:'';
+    content: '';
     position: absolute;
     bottom: -2px;
     width: 0;
@@ -92,9 +92,11 @@ form h2
     right: 50%;
 }
 
+
 .input-div:before{
     left: 50%;
 }
+
 
 .input-div.focus .i i 
 {
@@ -110,6 +112,7 @@ form h2
 .input-div.focus:after, .input-div.focus:before {
     width: 50%;
 }
+
 
 .input-div.one 
 {
